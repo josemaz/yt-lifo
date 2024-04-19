@@ -1,13 +1,13 @@
 
 ### Introduction
 
-This application named _yt-lifo_ was developed to manage a LIFO of Youtube videos. This app use youtube video id (see links) to fill the content of links.
+This application named _yt-lifo_ was developed to manage a LIFO of Youtube videos. This app use youtube video id (see links) to fill the content of them.
 
-In order to focus on selected videos in Youtube, we implemented a Pandas LIFO to avoid distractions of search in Youtube and its history.
+In order to focus on selected videos in Youtube, we implemented a Pandas LIFO to avoid distractions and perturbations of searching in Youtube and your historial.
 
-You don't need expending time on F\*ck1ng Youtube Channels an Searchs.
+You don't need expending more time on F\*ck1ng Youtube Channels and Searches.
 
-This app is based on minimalist philosophy.
+Moreover, this app is based on a minimalist philosophy.
 
 
 ### Parameters of CLI (Command Line Interface)
