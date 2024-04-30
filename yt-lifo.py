@@ -31,7 +31,6 @@ parser_save.add_argument('fout', type=str,
 #! Processing arguments
 args = parser.parse_args()
 
-
 #! Open connection to DB
 colnames=['idVideo','author','title','retrived']
 df = pd.read_csv('data-new.tsv', sep = '\t', names=colnames)
@@ -39,6 +38,8 @@ df = pd.read_csv('data-new.tsv', sep = '\t', names=colnames)
 
 #! START MAIN
 if args.cmd == 'push' :
+    #! hack to use videos id starting with dash
+    args.idVideo = args.idVideo.replace('\\', '')
     video_url = 'https://www.youtube.com/watch?v=' + args.idVideo
     yt = YouTube(video_url)
     title = yt.title

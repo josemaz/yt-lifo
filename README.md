@@ -14,11 +14,12 @@ Moreover, this app is based on a minimalist philosophy.
 
 ```python
 
-python app.py push dUdaAm4x3Wg
-python app.py pull
-python app.py show -l 1
-python app.py cat
-python app.py save file.tsv
+python yt-lifo.py push dUdaAm4x3Wg
+python yt-lifo.py push "\-Hwlvkfp698"
+python yt-lifo.py pull
+python yt-lifo.py show -l 1
+python yt-lifo.py cat
+python yt-lifo.py save file.tsv
 
 ```
 
@@ -33,6 +34,6 @@ python app.py save file.tsv
 - We wish improving the output of show command
 - We wish improving validation of *No valid command* with argparse
 - We wish to use different LIFOs (DBs)
-
+- Adding date of push video
 
 
